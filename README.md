@@ -1,14 +1,48 @@
-# Flappy Intent — Shrimp Edition
+# 🦐 Flappy Intent — Shrimp Edition 🎮
 
-Now with shrimp skins and a sea theme 🦐🌊
+Canlı Demo: 👉 [Flappy Intent Oyna](https://c3wr3.github.io/flappy-intent-shrimp/)
 
-## Intents
-- ⚡ Speed — wider gates
-- 🛡️ Shield — one-hit forgiveness
-- 📈 Score — double points
+---
 
-## Skins
-Choose between **Red Shrimp** and **Neon Shrimp** from the Skin selector.
+## 🎯 Nedir?
+Flappy Intent, klasik Flappy Bird tarzı bir oyunun Anoma’nın intent-matching mantığı ile birleşmiş hali.  
+Oyuncu 🦐 karides karakterini uçurarak borulardan geçmeye çalışıyor.  
+Başta bir intent (niyet) seçiyorsun → oyun sana seçtiğin intent’e göre avantaj veya ödül veriyor.  
 
-## Run
-Open `index.html` in any modern browser. No installs, no libs.
+---
+
+## 🕹️ Nasıl Oynanır?
+1. Intent seç → ⚡️ Speed, 🛡️ Shield veya 📈 Score.  
+2. Skin seç → 🔴 Red Shrimp veya 💙 Neon Shrimp.  
+3. **Start**’a bas ve Space tuşuyla (veya ekrana tıklayarak) karidesi uçur.  
+4. Borulara çarpmadan en yüksek skoru yapmaya çalış.  
+
+---
+
+## ⚡️ Intent Özellikleri
+- ⚡️ Speed → Borular arasındaki boşluk daha geniş.  
+- 🛡️ Shield → 1 kere çarpma hakkı tanır.  
+- 📈 Score → Her geçişte çift puan verir.  
+
+---
+
+## 🎨 Özellikler
+- 2 farklı shrimp skin (Red & Neon)  
+- Denizaltı teması 🌊 baloncuk efektleri  
+- Skor kaydı (tarayıcı local storage)  
+- Basit, eğlenceli ve tamamen tarayıcıda çalışır  
+
+---
+
+## 📂 Kurulum
+Projeyi klonla:
+
+Demo
+
+👉 Buradan oyunu oyna (https://c3wr3.github.io/flappy-intent-shrimp/)
+
+
+
+
+```bash
+git clone https://github.com/c3wr3/flappy-intent-shrimp.git
