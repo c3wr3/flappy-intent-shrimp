@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Intent — Shrimp Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Flappy Intent — 🦐 Shrimp Edition</h1>
+    <p class="tagline">Pick an intent and a shrimp skin, then fly through the pipes.</p>
+  </header>
+
+  <section id="controls">
+    <label>Intent
+      <select id="intent">
+        <option value="speed">⚡ Speed</option>
+        <option value="shield" selected>🛡️ Shield</option>
+        <option value="score">📈 Score</option>
+      </select>
+    </label>
+    <label>Skin
+      <select id="skin">
+        <option value="red" selected>Red Shrimp</option>
+        <option value="neon">Neon Shrimp</option>
+      </select>
+    </label>
+    <button id="startBtn">Start</button>
+  </section>
+
+  <section id="hud">
+    <div>Score: <span id="score">0</span></div>
+    <div>Best: <span id="best">0</span></div>
+    <div class="intentInfo">Intent: <span id="intentLabel">Shield</span></div>
+  </section>
+
+  <main>
+    <canvas id="game" width="420" height="640" aria-label="Flappy Intent game"></canvas>
+  </main>
+
+  <footer>
+    <details>
+      <summary>How this models intent-matching</summary>
+      <p>Players pick an <strong>intent</strong> (⚡ speed, 🛡️ shield, 📈 score). The game engine routes
+      bonuses when actions align with that intent — similar to how intent-centric systems
+      match user goals to the best solver. Shrimp skins are just for style 🦐.</p>
+    </details>
+  </footer>
+
+  <script src="flappy_v2.js"></script>
+</body>
+</html>
