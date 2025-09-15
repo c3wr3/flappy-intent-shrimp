@@ -1,48 +1,40 @@
-# 🦐 Flappy Intent — Shrimp Edition 🎮
+🦐 Flappy Intent — Shrimp Edition 🎮
 
-Canlı Demo: 👉 [Flappy Intent Oyna](https://c3wr3.github.io/flappy-intent-shrimp/)
+Live Demo 👉 Play Flappy Intent (https://c3wr3.github.io/flappy-intent-shrimp/)
 
----
+⸻
 
-## 🎯 Nedir?
-Flappy Intent, klasik Flappy Bird tarzı bir oyunun Anoma’nın intent-matching mantığı ile birleşmiş hali.  
-Oyuncu 🦐 karides karakterini uçurarak borulardan geçmeye çalışıyor.  
-Başta bir intent (niyet) seçiyorsun → oyun sana seçtiğin intent’e göre avantaj veya ödül veriyor.  
+🎯 What is it
 
----
+Flappy Intent is a classic Flappy Bird style game combined with Anoma intent matching logic
+The player flies the 🦐 shrimp character through the pipes
+At the start you choose an intent → the game gives you advantages or rewards based on that choice
 
-## 🕹️ Nasıl Oynanır?
-1. Intent seç → ⚡️ Speed, 🛡️ Shield veya 📈 Score.  
-2. Skin seç → 🔴 Red Shrimp veya 💙 Neon Shrimp.  
-3. **Start**’a bas ve Space tuşuyla (veya ekrana tıklayarak) karidesi uçur.  
-4. Borulara çarpmadan en yüksek skoru yapmaya çalış.  
+⸻
 
----
+🕹️ How to Play
+ 1. Choose an intent → ⚡️ Speed 🛡️ Shield or 📈 Score
+ 2. Choose a skin → 🔴 Red Shrimp or 💙 Neon Shrimp
+ 3. Press Start and fly the shrimp with the Space key or by tapping
+ 4. Try to get the highest score without hitting the pipes
 
-## ⚡️ Intent Özellikleri
-- ⚡️ Speed → Borular arasındaki boşluk daha geniş.  
-- 🛡️ Shield → 1 kere çarpma hakkı tanır.  
-- 📈 Score → Her geçişte çift puan verir.  
+⸻
 
----
+⚡️ Intent Features
+ • ⚡️ Speed → Wider gaps between pipes
+ • 🛡️ Shield → One collision forgiveness
+ • 📈 Score → Double points for each pass
 
-## 🎨 Özellikler
-- 2 farklı shrimp skin (Red & Neon)  
-- Denizaltı teması 🌊 baloncuk efektleri  
-- Skor kaydı (tarayıcı local storage)  
-- Basit, eğlenceli ve tamamen tarayıcıda çalışır  
+⸻
 
----
+🎨 Features
+ • 2 different shrimp skins Red and Neon
+ • Underwater theme 🌊 with bubble effects
+ • Score saving with browser local storage
+ • Simple fun and runs entirely in the browser
 
-## 📂 Kurulum
-Projeyi klonla:
+Installation
 
-Demo
+Clone the project
 
-👉 Buradan oyunu oyna (https://c3wr3.github.io/flappy-intent-shrimp/)
-
-
-
-
-```bash
 git clone https://github.com/c3wr3/flappy-intent-shrimp.git
